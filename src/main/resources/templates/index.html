@@ -1,81 +1,25 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-    <title>带图标弹窗</title>
-    <!--<link href="/static/admin/css/style.min.css" rel="stylesheet" type="text/css">-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="/static/admin/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<button id="button1">小弹窗1</button>
-<button id="button2">小弹窗2</button>
-<button id="button3">小弹窗3</button>
-<button id="button4">无表情提示框</button>
-<button id="button5">有表情提示框</button>
-<button id="button6">确认框</button>
-<button id="button7">加载</button>
-<button id="button8">小号输入框</button>
+<h1>你好，世界！</h1>
 
-<script src="/static/admin/js/jquery-3.1.1.min.js"></script>
-<script src="/static/admin/plugins/layer/layer.js"></script>
-<script src="/static/admin/plugins/layui/layui.js"></script>
-
-<script>
-    /*获取去layer的变量*/
-    var layer;
-    layui.use('layer',function () {
-        layer = layui.layer;
-    });
-
-    $('#button1').on('click', function(){
-        layer.open({
-            title:'我是小弹窗1',
-            content:'Hello World!'
-        });
-    });
-
-    $('#button2').on('click', function(){
-        layer.alert('我是弹出层2', {
-            icon: 6
-        });
-    });
-
-    $('#button3').on('click', function(){
-        layer.alert('我是弹出层3');
-    });
-
-    $('#button4').on('click', function () {
-        layer.ready(function () {
-            layer.msg('淡淡的弹出');
-        });
-    });
-
-    $('#button5').on('click', function () {
-        layer.ready(function () {
-            layer.msg('我是有态度的提示框',{icon:6});
-        });
-    });
-
-    $('#button6').on('click', function () {
-        layer.confirm('确定删除?', {icon: 3, title:'再见'}, function(index){
-            layer.alert('~~~~(>_<)~~~~');
-            layer.close(index);
-        });
-    });
-
-    $('#button7').on('click', function () {
-        var index = layer.load(0,{time: 3*1000});
-        /*var index = layer.load(1, {time: 3*1000});*/
-        /* var index = layer.load(2, {time: 3*1000});*/
-    });
-
-    $('#button8').on('click', function () {
-        layer.prompt(function(value, index, elem){
-            layer.msg(value);
-            layer.close(index);
-        });
-    });
-
-</script>
-
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/static/admin/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
