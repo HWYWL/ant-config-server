@@ -1,0 +1,41 @@
+[{
+    "newsId" : "1",
+    "newsName" : "客服电话配置",
+    "newsAuthor" : "懿",
+    "newsStatus" : "审核通过",
+    "newsLook" : "开放浏览",
+    "isShow" : "",
+    "newsTime" : "2017-12-4"
+},{
+    "newsId" : "2",
+    "newsName" : "秒杀商品数量设置",
+    "newsAuthor" : "懿",
+    "newsStatus" : "待审核",
+    "newsLook" : "开放浏览",
+    "isShow" : "checked",
+    "newsTime" : "2017-12-4"
+},{
+    "newsId" : "3",
+    "newsName" : "缓存大小配置",
+    "newsAuthor" : "admin",
+    "newsStatus" : "审核通过",
+    "newsLook" : "开放浏览",
+    "isShow" : "checked",
+    "newsTime" : "2017-12-4"
+},{
+    "newsId" : "4",
+    "newsName" : "获取授权配置",
+    "newsAuthor" : "admin",
+    "newsStatus" : "审核通过",
+    "newsLook" : "开放浏览",
+    "isShow" : "checked",
+    "newsTime" : "2017-12-4"
+},{
+    "newsId" : "5",
+    "newsName" : "系统税率配置",
+    "newsAuthor" : "懿",
+    "newsStatus" : "待审核",
+    "newsLook" : "开放浏览",
+    "isShow" : "checked",
+    "newsTime" : "2017-12-4"
+}]

@@ -1,0 +1,26 @@
+[{
+	"title" : "后台首页",
+	"icon" : "icon-computer",
+	"href" : "page/main.html",
+	"spread" : false
+},{
+	"title" : "配置列表",
+	"icon" : "icon-text",
+	"href" : "page/news/newsList.html",
+	"spread" : false
+},{
+	"title" : "项目链接",
+	"icon" : "&#xe64c;",
+	"href" : "page/links/linksList.html",
+	"spread" : false
+},{
+	"title" : "系统参数",
+	"icon" : "&#xe631;",
+	"href" : "page/systemParameter/systemParameter.html",
+	"spread" : false
+},{
+	"title" : "关于",
+	"icon" : "&#xe61c;",
+	"href" : "page/404.html",
+	"spread" : false
+}]

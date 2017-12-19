@@ -1,0 +1,15 @@
+{
+    "cmsName": "配置中心",
+    "version": "v1.0.0",
+    "author": "懿",
+    "homePage": "www.hwy.ac.cn",
+    "server": "Windows",
+    "dataBase": "MySQL 5.7.17",
+    "frameWork": "blade 2.0.4-RELEASE",
+    "maxUpload": "2M",
+    "userRights": "总管理员",
+    "description": "配置中心，分离各个系统配置",
+    "powerby": "copyright @2017 懿",
+    "record": "京ICP备14040xxx号-1",
+    "keywords": "layui，配置中心"
+}
