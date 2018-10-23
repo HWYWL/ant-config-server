@@ -14,7 +14,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <blade-mvc.version>2.0.4-RELEASE</blade-mvc.version>
-        <hutool-all.version>4.0.2</hutool-all.version>
+        <hutool-all.version>4.1.18</hutool-all.version>
         <sqlite.version>3.15.1</sqlite.version>
         <blade-jdbc.version>0.2.2-RELEASE</blade-jdbc.version>
         <blade-tpl.verion>0.1.2</blade-tpl.verion>
